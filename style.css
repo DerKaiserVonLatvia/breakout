@@ -1,0 +1,91 @@
+.gameSpace{
+
+    padding-left: 0px;
+    padding-right: 0px;
+
+    padding: 0px;
+    padding-top: 50px;
+    height: 400px;
+    width: 400px;
+    background-color: gray;
+    display: block;
+}
+
+.cubesSpace{
+    left:0px;
+
+    display: grid;
+    grid-template-columns: repeat(20, 20px);
+    grid-template-rows: repeat(5, 20px);
+
+    padding-top: 0px;
+
+    background-color: aqua;
+    width: 400px;
+    height: 100px;
+}
+
+.p{
+    width: 20px;
+    height: 20px;
+
+    position: relative;
+
+    bottom: -250px;
+    left:0px;
+    background-color: blanchedalmond;
+}
+
+.cube{
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+
+    box-shadow: inset 2px 2px 0px #000;
+
+}
+
+
+.c{
+    width: 5px;
+    height: 5px;
+    background-color: blueviolet;
+}
+
+.player{
+
+    
+
+    width: 20px;
+    height: 20px;
+
+    position: relative;
+
+    bottom: -250px;
+    left:190px;
+
+
+    padding-left: 0px;
+    padding-right: 0px;
+
+    background-color: aquamarine;
+}
+.platform_stripe{
+
+    position: relative;
+
+    bottom: -250px;
+
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+#platform{
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+    left: 150px;
+    width: 100px;
+    height: 15px;
+    background-color: black;
+}
